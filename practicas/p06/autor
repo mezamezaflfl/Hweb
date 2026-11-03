@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Información del Autor</title>
+</head>
+<body>
+
+    <h1>Información Personal</h1>
+    
+    <img src="foto.jpg" alt="Fotografía del autor">
+
+    <ul>
+        <li><strong>Nombre completo:</strong>Oliver Meza Flores</li>
+        
+        <li><strong>Fecha de nacimiento:</strong> 12 de abril del 2004</li>
+        
+        <li><strong>Estatura:</strong> 1.79 m</li>
+        
+        <li><strong>Correo electrónico:</strong> <a href="mailto:tu_correo@ejemplo.com">oliver.mezaf@gmail.com</a></li>
+        
+        
+        <li><strong>Lugar de origen:</strong>Tlaxcala, Tlaxcala, México</li>
+        
+        <li><strong>Teléfono:</strong> <a href="tel:+522221234567">Llamar al +52 220 755 4505></li>
+    </ul>
+
+    <h2>Colegios</h2>
+    <ul>
+        <li><strong>Primaria:</strong> Benito Juárez</li>
+        <li><strong>Secundaria:</strong>Secundaria Zacatelco</li>
+        <li><strong>Preparatoria:</strong>Preparatoria Gral Lazaro Cardenas del Río</li>
+        <li><strong>Universidad:</strong>Benemerita universidad autonoma de Puebla - Licenciatura en Ingeniería en Tecnologías de la Información</li>
+    </ul>
+
+    <h2>Habilidades y Hobbies</h2>
+    <ul>
+        <li><strong>Habilidades:</strong> Programación, diseño web, comunicación efectiva, resolución de problemas, trabajo en equipo</li>
+        
+        <li><strong>Hobbies:</strong> Coctelería, lectura, deportes,futbol, videojuegos, anime</li>
+    </ul>
+
+</body>
+</html>
