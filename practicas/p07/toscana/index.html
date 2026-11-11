@@ -8,25 +8,99 @@
    <body>
       <h1>Aventuras en la Toscana</h1>
       <p>Esta es una breve crónica de mi visita a Italia. Da clic sobre las fotos minuatura para tener una vista más grande de cada fotografía. ¡Disfrúatlo!</p>
-
-      <h2>Pozzarello</h2>
-      <p><a href="ventana.html"><img src="fotosmini/ventana_mini.jpg" alt="vista desde la ventana del dormitorio" width="75" height="100"></a> La casa en la que nos alojamos se llamaba Pozzarello y fue construida alrededor del año 1200 como hogar del jardinero que cuidaba los terrenos del castillo aledaño. Las gruesas paredes nos mantenían agradablemente frescos adentro, a pesar del calorabrasador del medio día. Esta es la vista desde la ventana de nuestra habitación.</p>
-
-      <h2>El campo Toscano</h2>
-      <p><a href="campo.html"><img src="fotosmini/campo_mini.jpg" alt="vista de los campos de la toscana" width="100" height="75"></a> Esta es la escena del camino a Montalcino (¡todos los caminos conducen a Montalcino!). Se parece mucho a la escena del camino a Sienna, y al camino hacia la tienda de comestibles. Estábamos rodeados de hermosos paisajes durante la mayor parte del viaje.</p>
-
-      <h2>Sienna</h2>
-      <p><a href="sienna.html"><img src="fotosmini/siena_mini.jpg" alt="vista de la ciudad de Siena" width="100" height="75"></a> La ciudad más cercana a nuestra villa era Siena, estaba a unos 30 minutos. Pasamos muchos días explorando las calles empinadas y torcidas, probando la cocina local en restaurantes al aire libre, y parando en la oscuridad y haciendo eco en las iglesias principales o Duomos para escapar del sol.</p>
-
-      <h2>postres</h2>
-      <p><a href="postres.html"><img src="fotosmini/postres_mini.jpg" alt="vista de los postres locales" width="100" height="75"></a> Durante nuestro viaje, tuvimos la oportunidad de probar algunos de los postres más famosos de la región. Estos deliciosos dulces son una parte importante de la cultura culinaria toscana.</p>
-
-      <h2>catedral</h2>
-      <p><a href="catedral.html"><img src="fotosmini/catedral_mini.jpg" alt="vista de la catedral de Siena" width="100" height="75"></a> La catedral de Siena es uno de los monumentos más emblemáticos de la ciudad. Su fachada gótica y su interior lleno de arte religioso hacen de ella un lugar de interés para los visitantes.</p>
-
-      <h2>lavanda</h2>
-      <p><a href="lavanda.html"><img src="fotosmini/lavanda_mini.jpg" alt="vista de los campos de lavanda" width="100" height="75"></a> Los campos de lavanda alrededor de Siena son un espectáculo visual impresionante, especialmente durante la temporada de floración en julio y agosto.</p>
-
-   </body>
-
+   <table border="1" cellpadding="5" cellspacing="0">
+         <thead>
+            <tr>
+               <th>Imagen</th>
+               <th>Lugar</th>
+               <th>Fecha y hora</th>
+               <th>Descripción</th>
+               <th>Mapa</th>
+            </tr>
+         </thead>
+         <tbody>
+            <!-- Fila Pozzarello -->
+            <tr>
+               <td><a href="ventana.html"><img src="fotosmini/ventana_mini.jpg" alt="vista desde la ventana" width="75" height="100"></a></td>
+               <td>Pozzarello</td>
+               <td>Verano, medio día</td>
+               <td>La casa en la que nos alojamos se llamaba Pozzarello y fue construida alrededor del año 1200 como hogar del jardinero que cuidaba los terrenos del castillo aledaño...</td>
+               <td rowspan="3">
+                  <!-- Aquí puedes poner un iframe de Google Maps o una imagen de mapa. 
+                       Usamos rowspan="3" para que el mapa abarque las 3 filas de la Toscana -->
+                  <img src="mapa.jpg" alt="Mapa de la Toscana" width="200">
+               </td>
+            </tr>
+            <!-- Fila Campo -->
+            <tr>
+               <td><a href="campo.html"><img src="fotosmini/campo_mini.jpg" alt="campo toscano" width="100" height="75"></a></td>
+               <td>El campo Toscano</td>
+               <td>Verano, tarde</td>
+               <td>Esta es la escena del camino a Montalcino (¡todos los caminos conducen a Montalcino!). Se parece mucho a la escena del camino a Sienna...</td>
+               <!-- El mapa no se repite aquí por el rowspan -->
+            </tr>
+            <!-- Fila Sienna -->
+            <tr>
+               <td><a href="sienna.html"><img src="fotosmini/sienna_mini.jpg" alt="calles de Sienna" width="75" height="100"></a></td>
+               <td>Sienna</td>
+               <td>Verano, atardecer</td>
+               <td>La ciudad más cercana a nuestra villa era Sienna, estaba a unos 30 minutos. Pasamos muchos días explorando las calles empinadas y torcidas...</td>
+               <!-- El mapa no se repite aquí por el rowspan -->
+            </tr>
+         </tbody>
+      </table>
+      
+      <h2>Mi Próxima Aventura</h2>
+      <table border="1" cellpadding="5" cellspacing="0">
+         <thead>
+            <tr>
+               <th>Miniatura</th>
+               <th>Destino</th>
+               <th>Mejor época</th>
+               <th>¿Por qué ir?</th>
+               <th>Mapa</th>
+            </tr>
+         </thead>
+         <tbody>
+            <!-- Fila 1 -->
+            <tr>
+               <td><img src="fotosmini/ejemplo1_mini.jpg" alt="Destino 1" width="75" height="100"></td>
+               <td>Kioto, Japón</td>
+               <td>Primavera</td>
+               <td>Ver los cerezos en flor.</td>
+               <td rowspan="2"><img src="mapa_japon.jpg" alt="Mapa" width="150"></td>
+            </tr>
+            <!-- Fila 2 -->
+            <tr>
+               <td><img src="fotosmini/ejemplo2_mini.jpg" alt="Destino 2" width="75" height="100"></td>
+               <td>Roma, Italia</td>
+               <td>Otoño</td>
+               <td>Comer pasta auténtica y ver el Coliseo.</td>
+            </tr>
+            <!-- Fila 3 -->
+            <tr>
+               <td><img src="fotosmini/ejemplo3_mini.jpg" alt="Destino 3" width="75" height="100"></td>
+               <td>París, Francia</td>
+               <td>Verano</td>
+               <td>Subir a la Torre Eiffel.</td>
+               <td></td>
+            </tr>
+            <!-- Fila 4 -->
+            <tr>
+               <td><img src="fotosmini/ejemplo4_mini.jpg" alt="Destino 4" width="75" height="100"></td>
+               <td>Nueva York, EE. UU.</td>
+               <td>Invierno</td>
+               <td>Ver la ciudad nevada.</td>
+               <td></td>
+            </tr>
+            <!-- Fila 5 -->
+            <tr>
+               <td><img src="fotosmini/ejemplo5_mini.jpg" alt="Destino 5" width="75" height="100"></td>
+               <td>Río de Janeiro, Brasil</td>
+               <td>Febrero</td>
+               <td>El Carnaval y las playas.</td>
+               <td></td>
+            </tr>
+         </tbody>
+      </table>
 </html>
